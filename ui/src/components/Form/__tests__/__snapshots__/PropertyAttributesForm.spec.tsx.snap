@@ -1,0 +1,1591 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyAttributesForm When form is rendered Then it should match snapshot 1`] = `
+<div>
+  <form>
+    <div
+      class="propertyAttributesContainer"
+    >
+      <ul
+        class="listContainer"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="type"
+              id="type__label"
+            >
+              Property Type *
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="type-dropdown"
+                  id="type"
+                  name="Property Type"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="H"
+                  >
+                    House
+                  </option>
+                  <option
+                    selected=""
+                    value="F"
+                  >
+                    Flat
+                  </option>
+                  <option
+                    value="B"
+                  >
+                    Bungalow
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="style"
+              id="style__label"
+            >
+              Property Style *
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="style-dropdown"
+                  id="style"
+                  name="Property Style"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    selected=""
+                    value="PB"
+                  >
+                    Purpose Built
+                  </option>
+                  <option
+                    value="CV"
+                  >
+                    Converted
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="beds"
+              id="beds__label"
+            >
+              Bedrooms *
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="beds-dropdown"
+                  id="beds"
+                  name="Bedrooms"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="0"
+                  >
+                    0
+                  </option>
+                  <option
+                    value="1"
+                  >
+                    1
+                  </option>
+                  <option
+                    value="2"
+                  >
+                    2
+                  </option>
+                  <option
+                    value="3"
+                  >
+                    3
+                  </option>
+                  <option
+                    selected=""
+                    value="4"
+                  >
+                    4
+                  </option>
+                  <option
+                    value="5"
+                  >
+                    5
+                  </option>
+                  <option
+                    value="6"
+                  >
+                    6
+                  </option>
+                  <option
+                    value="7"
+                  >
+                    7
+                  </option>
+                  <option
+                    value="8"
+                  >
+                    8
+                  </option>
+                  <option
+                    value="9"
+                  >
+                    9
+                  </option>
+                  <option
+                    value="10"
+                  >
+                    10
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="yearBuilt"
+              id="yearBuilt__label"
+            >
+              Year Build
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <input
+                class="dsrm_inputText  undefined"
+                contenteditable="true"
+                data-test="yearBuilt-input"
+                id="yearBuilt"
+                maxlength="10"
+                name="Year Build"
+                type="number"
+                value="1935"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="condition"
+              id="condition__label"
+            >
+              Condition
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="condition-dropdown"
+                  id="condition"
+                  name="Condition"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    selected=""
+                    value="G"
+                  >
+                    Good
+                  </option>
+                  <option
+                    value="A"
+                  >
+                    Average
+                  </option>
+                  <option
+                    value="P"
+                  >
+                    Poor
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="tenure"
+              id="tenure__label"
+            >
+              Tenure
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="tenure-dropdown"
+                  id="tenure"
+                  name="Tenure"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="FH"
+                  >
+                    Freehold
+                  </option>
+                  <option
+                    selected=""
+                    value="LH"
+                  >
+                    Leasehold
+                  </option>
+                  <option
+                    value="FD"
+                  >
+                    Feudal
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="livingRooms"
+              id="livingRooms__label"
+            >
+              Living Rooms
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="livingRooms-dropdown"
+                  id="livingRooms"
+                  name="Living Rooms"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    selected=""
+                    value="0"
+                  >
+                    0
+                  </option>
+                  <option
+                    value="1"
+                  >
+                    1
+                  </option>
+                  <option
+                    value="2"
+                  >
+                    2
+                  </option>
+                  <option
+                    value="3"
+                  >
+                    3
+                  </option>
+                  <option
+                    value="4"
+                  >
+                    4
+                  </option>
+                  <option
+                    value="5"
+                  >
+                    5
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="bathrooms"
+              id="bathrooms__label"
+            >
+              Bathrooms
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="bathrooms-dropdown"
+                  id="bathrooms"
+                  name="Bathrooms"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="0"
+                  >
+                    0
+                  </option>
+                  <option
+                    selected=""
+                    value="1"
+                  >
+                    1
+                  </option>
+                  <option
+                    value="2"
+                  >
+                    2
+                  </option>
+                  <option
+                    value="3"
+                  >
+                    3
+                  </option>
+                  <option
+                    value="4"
+                  >
+                    4
+                  </option>
+                  <option
+                    value="5"
+                  >
+                    5
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="cloakrooms"
+              id="cloakrooms__label"
+            >
+              Cloakrooms
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="cloakrooms-dropdown"
+                  id="cloakrooms"
+                  name="Cloakrooms"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="0"
+                  >
+                    0
+                  </option>
+                  <option
+                    value="1"
+                  >
+                    1
+                  </option>
+                  <option
+                    selected=""
+                    value="2"
+                  >
+                    2
+                  </option>
+                  <option
+                    value="3"
+                  >
+                    3
+                  </option>
+                  <option
+                    value="4"
+                  >
+                    4
+                  </option>
+                  <option
+                    value="5"
+                  >
+                    5
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="conservatories"
+              id="conservatories__label"
+            >
+              Conservatory
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="conservatories-dropdown"
+                  id="conservatories"
+                  name="Conservatory"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="0"
+                  >
+                    0
+                  </option>
+                  <option
+                    value="1"
+                  >
+                    1
+                  </option>
+                  <option
+                    value="2"
+                  >
+                    2
+                  </option>
+                  <option
+                    selected=""
+                    value="3"
+                  >
+                    3
+                  </option>
+                  <option
+                    value="4"
+                  >
+                    4
+                  </option>
+                  <option
+                    value="5"
+                  >
+                    5
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="centralHeating"
+              id="centralHeating__label"
+            >
+              Heating
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="centralHeating-dropdown"
+                  id="centralHeating"
+                  name="Heating"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="GAS"
+                  >
+                    Gas
+                  </option>
+                  <option
+                    value="OIL"
+                  >
+                    Oil
+                  </option>
+                  <option
+                    value="ELC"
+                  >
+                    Electric
+                  </option>
+                  <option
+                    selected=""
+                    value="OTH"
+                  >
+                    Other
+                  </option>
+                  <option
+                    value="NON"
+                  >
+                    None
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="parking"
+              id="parking__label"
+            >
+              Parking
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="parking-dropdown"
+                  id="parking"
+                  name="Parking"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    selected=""
+                    value="NP"
+                  >
+                    No Parking
+                  </option>
+                  <option
+                    value="OS"
+                  >
+                    Off Street
+                  </option>
+                  <option
+                    value="SG"
+                  >
+                    Single Garage
+                  </option>
+                  <option
+                    value="DG"
+                  >
+                    Double Garage
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="floorArea"
+              id="floorArea__label"
+            >
+              Floor Area
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <input
+                class="dsrm_inputText  undefined"
+                contenteditable="true"
+                data-test="floorArea-input"
+                id="floorArea"
+                maxlength="10"
+                name="Floor Area"
+                type="number"
+                value="108"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="exLocalAuthority"
+              id="exLocalAuthority__label"
+            >
+              Ex Local Authority
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="exLocalAuthority-dropdown"
+                  id="exLocalAuthority"
+                  name="Ex Local Authority"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="N"
+                  >
+                    No
+                  </option>
+                  <option
+                    value="Y"
+                  >
+                    Yes
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="councilTaxBand"
+              id="councilTaxBand__label"
+            >
+              Council Tax
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="councilTaxBand-dropdown"
+                  id="councilTaxBand"
+                  name="Council Tax"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="A"
+                  >
+                    Band A
+                  </option>
+                  <option
+                    value="B"
+                  >
+                    Band B
+                  </option>
+                  <option
+                    value="C"
+                  >
+                    Band C
+                  </option>
+                  <option
+                    value="D"
+                  >
+                    Band D
+                  </option>
+                  <option
+                    value="E"
+                  >
+                    Band E
+                  </option>
+                  <option
+                    value="F"
+                  >
+                    Band F
+                  </option>
+                  <option
+                    value="G"
+                  >
+                    Band G
+                  </option>
+                  <option
+                    value="H"
+                  >
+                    Band H
+                  </option>
+                  <option
+                    value="I"
+                  >
+                    Band I
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="equestrian"
+              id="equestrian__label"
+            >
+              Equestrian
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="equestrian-dropdown"
+                  id="equestrian"
+                  name="Equestrian"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="N"
+                  >
+                    No
+                  </option>
+                  <option
+                    value="Y"
+                  >
+                    Yes
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="aboveShops"
+              id="aboveShops__label"
+            >
+              Above Shops
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="aboveShops-dropdown"
+                  id="aboveShops"
+                  name="Above Shops"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="N"
+                  >
+                    No
+                  </option>
+                  <option
+                    value="Y"
+                  >
+                    Yes
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="standardConstruction"
+              id="standardConstruction__label"
+            >
+              Standard Construction
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="standardConstruction-dropdown"
+                  id="standardConstruction"
+                  name="Standard Construction"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="N"
+                  >
+                    No
+                  </option>
+                  <option
+                    value="Y"
+                  >
+                    Yes
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="constructionType"
+              id="constructionType__label"
+            >
+              Construction Type
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="constructionType-dropdown"
+                  id="constructionType"
+                  name="Construction Type"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="CSC"
+                  >
+                    Cast in Situ Concrete
+                  </option>
+                  <option
+                    value="PRCR"
+                  >
+                    Pre-cast Reinforced Concrete - Repaired
+                  </option>
+                  <option
+                    value="PRCU"
+                  >
+                    Pre-cast Reinforced Concrete - Unrepaired
+                  </option>
+                  <option
+                    value="MTF"
+                  >
+                    Pre 1975 Modern Timber Frame
+                  </option>
+                  <option
+                    value="SF"
+                  >
+                    Steel Frame
+                  </option>
+                  <option
+                    value="MMC"
+                  >
+                    Modern methods of Construction
+                  </option>
+                  <option
+                    value="LPS"
+                  >
+                    Large Panel System
+                  </option>
+                  <option
+                    value="O"
+                  >
+                    Other
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+      <h2
+        class="epcDataTitle"
+      >
+        epcDataSubtitle
+      </h2>
+      <ul
+        class="listContainer"
+      >
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="currentEnergyRating"
+              id="currentEnergyRating__label"
+            >
+              Current energy rating
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="currentEnergyRating-dropdown"
+                  id="currentEnergyRating"
+                  name="Current energy rating"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="A"
+                  >
+                    A
+                  </option>
+                  <option
+                    value="B"
+                  >
+                    B
+                  </option>
+                  <option
+                    value="C"
+                  >
+                    C
+                  </option>
+                  <option
+                    value="D"
+                  >
+                    D
+                  </option>
+                  <option
+                    value="E"
+                  >
+                    E
+                  </option>
+                  <option
+                    value="F"
+                  >
+                    F
+                  </option>
+                  <option
+                    value="G"
+                  >
+                    G
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="currentEnergyEfficiency"
+              id="currentEnergyEfficiency__label"
+            >
+              Current energy efficiency
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <input
+                class="dsrm_inputText  undefined"
+                contenteditable="true"
+                data-test="currentEnergyEfficiency-input"
+                id="currentEnergyEfficiency"
+                maxlength="10"
+                name="Current energy efficiency"
+                type="number"
+                value="15"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField dsrm_formFieldSelect"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="potentialEnergyRating"
+              id="potentialEnergyRating__label"
+            >
+              Potential energy rating
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <div
+                class="dsrm_select dsrm_formFieldSelect__select"
+              >
+                <select
+                  data-test="potentialEnergyRating-dropdown"
+                  id="potentialEnergyRating"
+                  name="Potential energy rating"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="A"
+                  >
+                    A
+                  </option>
+                  <option
+                    value="B"
+                  >
+                    B
+                  </option>
+                  <option
+                    value="C"
+                  >
+                    C
+                  </option>
+                  <option
+                    value="D"
+                  >
+                    D
+                  </option>
+                  <option
+                    value="E"
+                  >
+                    E
+                  </option>
+                  <option
+                    value="F"
+                  >
+                    F
+                  </option>
+                  <option
+                    value="G"
+                  >
+                    G
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="dsrm_select__chevron"
+                  height="10"
+                  role="img"
+                  viewBox="0 0 16 10"
+                  width="16"
+                >
+                  <title>
+                    Chevron Down
+                  </title>
+                  <desc>
+                    chevron down icon
+                  </desc>
+                  <path
+                    d="M0.471663 0.204728C0.900534 -0.106886 1.49338 -0.0627394 1.87492 0.336946L7.99844 6.75173L14.1253 0.336738L14.1563 0.307074L14.2596 0.216756L14.277 0.204097C14.7062 -0.107074 15.299 -0.0623201 15.6801 0.337736C16.107 0.785795 16.1066 1.51035 15.6792 1.95786L7.99799 10L0.320633 1.9576C-0.106678 1.50997 -0.106906 0.785402 0.320119 0.337479L0.351069 0.307796L0.454222 0.2174L0.471663 0.204728Z"
+                    fill="#000433"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <div
+            class="dsrm_formField"
+          >
+            <label
+              class="dsrm_formLabel"
+              for="potentialEnergyEfficiency"
+              id="potentialEnergyEfficiency__label"
+            >
+              Potential energy efficiency
+            </label>
+            <div
+              class="dsrm_formField__field"
+            >
+              <input
+                class="dsrm_inputText  undefined"
+                contenteditable="true"
+                data-test="potentialEnergyEfficiency-input"
+                id="potentialEnergyEfficiency"
+                maxlength="10"
+                name="Potential energy efficiency"
+                type="number"
+                value="15"
+              />
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </form>
+</div>
+`;

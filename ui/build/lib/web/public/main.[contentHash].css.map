@@ -1,0 +1,1 @@
+{"version":3,"file":"main.[contentHash].css","mappings":"AAAA,QACE,kB","sources":["webpack://frontend/./src/components/main.scss"],"sourcesContent":[".hidden {\n  visibility: hidden;\n}\n\n"],"names":[],"sourceRoot":""}

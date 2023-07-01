@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/lib",
+    "sourceMap": true,
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "baseUrl": ".."
+  },
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

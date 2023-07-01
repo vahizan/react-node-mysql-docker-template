@@ -1,0 +1,31 @@
+{
+    "presets": [
+        [
+            "@babel/env",
+            {
+                "targets": {
+                    "edge": "18",
+                    "firefox": "70",
+                    "chrome": "60",
+                    "safari": "9",
+                    "ie": "11"
+                },
+                "useBuiltIns": "entry",
+                "corejs": "3.6.5"
+            }
+        ],
+        [
+            "@babel/preset-typescript"
+        ],
+        [
+            "@babel/preset-react"
+        ]
+    ],
+    "sourceType": "unambiguous",
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-transform-shorthand-properties"
+    ]
+}

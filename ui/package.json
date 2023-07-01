@@ -1,0 +1,154 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend react app",
+  "main": "src/index.tsx",
+  "engines": {
+    "node": "20"
+  },
+  "volta": {
+    "node": "20.3.1",
+    "npm": "9.5.1"
+  },
+  "scripts": {
+    "build": "npm run typecheck && npm run web",
+    "start": "webpack serve --config ./webpack/prod.config.js --mode production",
+    "lint": "eslint .. --ext .ts,.tsx ./src",
+    "test": "jest --ci --reporters=default --reporters=jest-junit --coverage --passWithNoTests",
+    "test:watch": "jest --passWithNoTests --watch",
+    "typecheck": "tsc --noEmit",
+    "test:clean": "jest --clearCache",
+    "web": "webpack --config ./webpack/prod.config.js --progress --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "axios": "^0.21.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "helmet": "^4.1.1",
+    "i18next": "^22.4.15",
+    "nocache": "^2.1.0",
+    "properties-reader": "^2.2.0",
+    "qs": "^6.9.4",
+    "query-string": "^6.13.7",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-hook-form": "^7.43.5",
+    "react-i18next": "^12.2.2",
+    "react-router-dom": "^6.8.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-transform-runtime": "7.15.8",
+    "@babel/preset-env": "7.15.8",
+    "@babel/preset-typescript": "^7.12.1",
+    "@svgr/core": "^6.5.1",
+    "@svgr/webpack": "^6.5.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12.1.5",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^16.14.35",
+    "@types/react-dom": "^16.9.18",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.0",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "history": "^4.10.1",
+    "html-webpack-plugin": "^4.5.0",
+    "husky": "^4.3.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "jest-transform-stub": "^2.0.0",
+    "mini-css-extract-plugin": "^0.11.3",
+    "node": "^19.6.1",
+    "postcss": "^8.2.3",
+    "prettier": "^2.1.2",
+    "sass": "^1.55.0",
+    "sass-loader": "^10.0.2",
+    "source-map-loader": "^1.1.0",
+    "terser-webpack-plugin": "^4.2.2",
+    "ts-jest": "^29.1.1",
+    "typescript": "^4.1.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.8.0"
+  },
+
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true,
+    "arrowParens": "always",
+    "printWidth": 120,
+    "trailingComma": "none"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged && npm run typecheck",
+      "pre-push": "npm test"
+    }
+  },
+  "jest": {
+    "automock": false,
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "server/**/*.ts",
+      "server/**/*.js",
+      "web/**/*.tsx",
+      "web/**/*.ts",
+      "web/**/*.js",
+      "shared/**/*.ts",
+      "shared/**/*.js",
+      "!server/modules/apiRouter/query/tests/data/**/*.ts"
+    ],
+    "coverageDirectory": "./testReports",
+    "unmockedModulePathPatterns": [
+      "node_modules"
+    ],
+    "preset": "ts-jest",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest",
+      "\\.(svg|png|jpg)$": "jest-transform-stub"
+    },
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy",
+      "\\.(svg|png|jpg)$": "jest-transform-stub"
+    },
+    "rootDir": "./src/",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-dom/extend-expect",
+      "../testUtils/setup.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 0,
+        "functions": 0,
+        "lines": 0,
+        "statements": 0
+      }
+    }
+  }
+}

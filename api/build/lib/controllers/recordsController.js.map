@@ -1,0 +1,1 @@
+{"version":3,"file":"recordsController.js","sourceRoot":"","sources":["../../../controllers/recordsController.ts"],"names":[],"mappings":";;;AAEO,MAAM,cAAc,GAAG,CAAC,GAAY,EAAE,GAAa,EAAE,EAAE;IAC1D,MAAM,WAAW,GAAG;QAChB,OAAO,EAAE,6BAA6B;KACzC,CAAC;IAEF,GAAG,CAAC,IAAI,CAAC,WAAW,CAAC,CAAC;AAC1B,CAAC,CAAC;AANW,QAAA,cAAc,kBAMzB"}
