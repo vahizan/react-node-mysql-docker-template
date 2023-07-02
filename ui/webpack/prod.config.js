@@ -7,7 +7,7 @@ const CommonConfig = require('./common.config');
 const prodConfig = () => {
     return merge(CommonConfig, {
         output: {
-            path: path.resolve('./build/lib/web/public'),
+            path: path.resolve('./build/web/public'),
             publicPath: '/',
             filename: '[name].bundle.[chunkHash].js'
         },

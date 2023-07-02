@@ -37,14 +37,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './public/index.html',
         }),
-        new CopyWebpackPlugin({
-            patterns: [
-                {
-                    from: path.resolve('./src/assets'),
-                    to: path.resolve('./build/lib/web/public/')
-                }
-            ]
-        })
     ],
     bail: true,
     target: 'web',
@@ -56,3 +48,13 @@ module.exports = {
 //     hot: true,
 //     liveReload: true,
 // }
+
+//copying assets or resources folder into build
+// new CopyWebpackPlugin({
+//     patterns: [
+//         {
+//             from: path.resolve('./src/assets'),
+//             to: path.resolve('./build/lib/web/public/')
+//         }
+//     ]
+// })
