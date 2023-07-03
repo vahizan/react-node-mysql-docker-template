@@ -83,8 +83,6 @@ export const mockExampleContext = (
     mockContext.mockReturnValue(context);
 };
 
-export const flushAllPromises = (): Promise<void> => new Promise(setImmediate);
-
 // re-export everything
 export * from '@testing-library/react';
 

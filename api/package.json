@@ -33,5 +33,41 @@
     "ts-jest": "^29.1.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [",**/__tests__/**/*.ts?(x)", "**/?(*.)+(spec|test).ts?(x)"],
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+    "automock": false,
+    "clearMocks": true,
+    "coverageDirectory": "./testReports",
+    "unmockedModulePathPatterns": [
+      "node_modules"
+    ],
+    "preset": "ts-jest",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest",
+      "\\.(svg|png|jpg)$": "jest-transform-stub"
+    },
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy",
+      "\\.(svg|png|jpg)$": "jest-transform-stub"
+    },
+    "rootDir": "./",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-dom/extend-expect",
+      "./testUtils/setup.ts"
+    ]
+  },
+  "nodemonConfig": {
+    "signal": "SIGINT",
+    "watch": [
+      "./"
+    ],
+    "ext": "ts js tsx",
+    "exec": "npm run dev",
+    "env": {
+      "NODE_ENV": "dev"
+    }
   }
 }

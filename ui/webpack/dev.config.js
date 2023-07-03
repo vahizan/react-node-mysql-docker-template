@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const CommonConfig = require('./common.config');
 
-const prodConfig = () => {
+const devConfig = () => {
     return merge(CommonConfig, {
         output: {
             path: path.resolve('./build/web/public'),
@@ -79,6 +79,13 @@ const prodConfig = () => {
                 })
             ]
         },
+        devtool: 'source-map',
+        devServer: {
+            port: 3001,
+            open: true,
+            hot: true,
+            liveReload: true
+        },
         plugins: [
             new MiniCssExtractPlugin({
                 filename: '[name].[contentHash].css',
@@ -86,8 +93,8 @@ const prodConfig = () => {
                 chunks: 'all'
             })
         ],
-        mode: 'production'
+        mode: 'development'
     });
 };
 
-module.exports = prodConfig();
+module.exports = devConfig();

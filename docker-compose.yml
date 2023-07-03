@@ -1,23 +1,25 @@
 version: '3.8'
 
 services:
-  mysqldb:
-    image: mysql:latest
-    restart: unless-stopped
+  mysql:
+    image: 'mysql:latest'
     env_file: ./.env
+    container_name: $DB_CONTAINER_NAME
     environment:
-      - MYSQL_ROOT_PASSWORD=$MYSQLDB_ROOT_PASSWORD
-      - MYSQL_DATABASE=$MYSQLDB_DATABASE
-    ports:
-      - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
+      - MYSQL_ROOT_PASSWORD=$DB_PASSWORD
+      - MYSQL_DATABASE=$DB_DATABASE
     volumes:
-      - db:/var/lib/mysql
+      - mysql:/var/lib/mysql
+    ports:
+      - $DB_LOCAL_PORT:$DB_DOCKER_PORT
+    expose:
+      - $DB_LOCAL_PORT
     networks:
       - backend
 
   api:
     depends_on:
-      - mysqldb
+      - mysql
     build:
       context: ./api
       dockerfile: ../docker/api/Dockerfile
@@ -25,13 +27,6 @@ services:
     env_file: ./.env
     ports:
       - $NODE_LOCAL_PORT:$NODE_DOCKER_PORT
-    environment:
-      - DB_HOST=mysqldb
-      - DB_USER=$MYSQLDB_USER
-      - DB_PASSWORD=$MYSQLDB_ROOT_PASSWORD
-      - DB_NAME=$MYSQLDB_DATABASE
-      - DB_PORT=$MYSQLDB_DOCKER_PORT
-      - CLIENT_ORIGIN=$CLIENT_ORIGIN
     networks:
       - backend
       - frontend
@@ -50,7 +45,7 @@ services:
       - frontend
 
 volumes:
-  db:
+  mysql:
 
 networks:
   backend:

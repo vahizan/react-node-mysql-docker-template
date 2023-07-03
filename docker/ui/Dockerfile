@@ -2,9 +2,10 @@ FROM node:20-buster as build
 
 WORKDIR /ui
 
-COPY package.json ./
+COPY package*.json ./
+COPY tsconfig.json ./
 
-RUN npm install
+RUN npm ci --omit=dev
 COPY . .
 
 ARG REACT_APP_API_BASE_URL

@@ -1,10 +1,10 @@
-const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+/* eslint-disable @typescript-eslint/no-var-requires,no-undef */
+
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry:  './src/index.tsx',
+    entry: './src/index.tsx',
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.json']
     },
@@ -28,33 +28,15 @@ module.exports = {
                 enforce: 'pre',
                 test: /\.js$/,
                 loader: 'source-map-loader'
-            },
+            }
         ]
     },
-    devtool: 'source-map',
     plugins: [
         new CleanWebpackPlugin({ dangerouslyAllowCleanPatternsOutsideProject: true }),
         new HtmlWebpackPlugin({
-            template: './public/index.html',
-        }),
+            template: './public/index.html'
+        })
     ],
     bail: true,
-    target: 'web',
+    target: 'web'
 };
-
-// devServer: {
-//     port: 3000,
-//     open: true,
-//     hot: true,
-//     liveReload: true,
-// }
-
-//copying assets or resources folder into build
-// new CopyWebpackPlugin({
-//     patterns: [
-//         {
-//             from: path.resolve('./src/assets'),
-//             to: path.resolve('./build/lib/web/public/')
-//         }
-//     ]
-// })

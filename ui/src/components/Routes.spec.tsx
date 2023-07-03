@@ -3,7 +3,7 @@ import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import AppRoutes, { ROUTE_PATHS } from './AppRoutes';
 
-jest.mock('./Page/ExamplePage', () => () => <div data-test="example-page" />);
+jest.mock('./Page/ExamplePage', () => () => <div data-testid="example-page" />);
 
 describe('Routes', () => {
     afterEach(() => {
